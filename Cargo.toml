@@ -1,0 +1,19 @@
+[package]
+name = "chksum-writer"
+version = "0.0.0"
+authors = ["Konrad Goławski <konrad@golawski.it>"]
+edition = "2021"
+rust-version = "1.70.0"
+description = "A convenient interface for calculating hash digests on the fly while writing data to a writer."
+readme = ".cargo/README.md"
+repository = "https://github.com/chksum-rs/writer"
+license = "MIT"
+keywords = ["checksum", "digest", "hash", "writer"]
+categories = ["algorithms", "cryptography", "filesystem"]
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
+
+[dependencies]
+chksum-core = "0.0.0"
