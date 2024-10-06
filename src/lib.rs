@@ -58,6 +58,7 @@
 //!
 //! This crate is licensed under the MIT License.
 
+#![cfg_attr(docsrs, feature(doc_auto_cfg))]
 #![forbid(unsafe_code)]
 
 use std::io::{self, Write};
