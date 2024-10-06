@@ -6,7 +6,7 @@
 //!
 //! ```toml
 //! [dependencies]
-//! chksum-writer = "0.0.0"
+//! chksum-writer = "0.1.0"
 //! ```
 //!
 //! Alternatively, you can use the [`cargo add`](https://doc.rust-lang.org/cargo/commands/cargo-add.html) subcommand:
