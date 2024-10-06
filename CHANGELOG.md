@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added async support for Tokio runtime.
 - Added `doc_auto_cfg` feature.
 
+### Changed
+
+- Updated year range in `LICENSE`.
+
 ## [0.0.0] - 2023-12-21
 
 ### Added
